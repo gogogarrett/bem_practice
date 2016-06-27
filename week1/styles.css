@@ -1,0 +1,85 @@
+:root {
+  --main-font-color: #2eab06;
+}
+
+.card {
+  background: white;
+  border: 3px solid #eee;
+  border-radius: 5px;
+  padding: 25px;
+}
+
+.card__container {
+  margin-bottom: 25px;
+}
+
+.card__assignment_heading {
+  border-bottom: 2px solid #eee;
+  margin-bottom: 10px;
+}
+
+.card__assignment_heading_title {
+  margin: 0 0 15px;
+  padding: 0;
+  color: black;
+}
+
+.card__assignment_heading_title--fa-chain-icon:before {
+  content: "\f127";
+  font-family: FontAwesome;
+  font-style: normal;
+  font-weight: normal;
+  text-decoration: inherit;
+
+  background: var(--main-font-color);
+  color: white;
+  padding: 5px;
+  border-radius: 25px;
+  margin-right: 5px;
+}
+
+.card__detail {
+  margin-bottom: 10px;
+}
+
+.card__detail_heading {
+  color: var(--main-font-color);
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.card__detail_text {
+  color: black;
+  font-weight: bold;
+}
+
+.card__detail_text--state-disabled {
+  color: #c7c7c7;
+  font-style: italic;
+}
+
+.button {
+  background-color: var(--main-font-color);
+  color: white;
+  padding: 25px;
+  border-radius: 7px;
+  font-size: 1.25em;
+}
+
+.button--state-disabled {
+  opacity: 0.5;
+  position: relative;
+}
+.button--state-disabled:before {
+  content: "\f023";
+  font-family: FontAwesome;
+  font-style: normal;
+  font-weight: normal;
+  text-decoration: inherit;
+
+  background: var(--main-font-color);
+  color: white;
+  padding: 5px;
+  border-radius: 25px;
+  margin-right: 5px;
+}
